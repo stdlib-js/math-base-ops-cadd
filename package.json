@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-ops-cadd",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1",
   "description": "Add two complex numbers.",
   "license": "Apache-2.0",
   "author": {
