@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-ops-cadd",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Add two double-precision complex floating-point numbers.",
   "license": "Apache-2.0",
   "author": {
