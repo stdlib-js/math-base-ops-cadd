@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cadd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-cadd@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-ops-cadd/tags). For example,
+
+```javascript
 import cadd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-cadd@v0.2.1-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ var im = imag( v );
 
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs';
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import cadd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-cadd@v0.2.1-esm/index.mjs';
+import cadd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-cadd@esm/index.mjs';
 
 var rand;
 var z1;
