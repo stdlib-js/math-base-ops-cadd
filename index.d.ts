@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,23 +16,18 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var Complex128 = require( '@stdlib/complex-float64-ctor' );
-var real = require( '@stdlib/complex-real' );
-var imag = require( '@stdlib/complex-imag' );
-
-
-// MAIN //
+import { Complex128 } from '@stdlib/types/complex';
 
 /**
 * Adds two double-precision complex floating-point numbers.
 *
-* @param {Complex128} z1 - complex number
-* @param {Complex128} z2 - complex number
-* @returns {Complex128} result
+* @param z1 - complex number
+* @param z2 - complex number
+* @returns result
 *
 * @example
 * var Complex128 = require( '@stdlib/complex-float64-ctor' );
@@ -51,13 +46,9 @@ var imag = require( '@stdlib/complex-imag' );
 * var im = imag( out );
 * // returns 6.0
 */
-function cadd( z1, z2 ) {
-	var re = real( z1 ) + real( z2 );
-	var im = imag( z1 ) + imag( z2 );
-	return new Complex128( re, im );
-}
+declare function cadd( z1: Complex128, z2: Complex128 ): Complex128;
 
 
 // EXPORTS //
 
-module.exports = cadd;
+export = cadd;
